@@ -12,7 +12,6 @@
     }
     //绘制表盘
     function drawClockBackground() {
-        
         context.save();
         context.translate(width / 2, height / 2);
         context.beginPath();
@@ -47,8 +46,6 @@
             context.arc(x, y, width * rate / 5, 0, 2 * Math.PI);
             context.fill();
         }
-
-
     }
 
     //绘制时针
@@ -68,6 +65,7 @@
         context.fill();
         context.restore();
     }
+
     //绘制分针
     function drawClockMinute(minute, second) {
         context.save();
@@ -85,6 +83,7 @@
         context.fill();
         context.restore();
     }
+
     //绘制秒针
     function drawClockSecond(second) {
         context.save();
@@ -110,6 +109,7 @@
         context.arc(0, 0, width * rate / 5, 0, 2 * Math.PI);
         context.fill();
     }
+
     //绘制中文说明现在的时间
     function drawClockTime(date) {
         var year = date.getFullYear();
@@ -158,7 +158,6 @@
         //鼠标距离canvas左上角的距离
         var left = e.clientX - canvasDomLeft;
         var top = e.clientY - canvasDomTop;
-        //
         var leftMax = window.innerWidth - width;
         var topMax = window.innerHeight - height;
         canvasDom.onmousemove = function(e) {
