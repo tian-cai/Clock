@@ -38,4 +38,4 @@
 
    ![image.png](http://upload-images.jianshu.io/upload_images/7077173-efc06260a4294c1c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
    
->如有不足之处，欢迎之处
+>如有不足之处，欢迎指出
